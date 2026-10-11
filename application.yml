@@ -1,9 +1,10 @@
+
 spring:
   security:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://YOUR_ACTUAL_AUTH0_DOMAIN/
+          issuer-uri: https://dev-lissfnulx77znhtq.us.auth0.com/
           audiences:
             - "https://hotel-microservices-api"
 
